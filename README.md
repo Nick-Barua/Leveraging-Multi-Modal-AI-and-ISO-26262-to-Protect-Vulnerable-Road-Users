@@ -172,3 +172,12 @@ The proposed framework supports:
 ## 👩‍💻 Reproducibility & Extension (If Code Is Added)
 
 1. Clone repository:
+## 👩‍💻 Reproducibility & Extension (If Code Is Added)
+
+If supplementary code or notebooks are included:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Nick-Barua/Leveraging-Multi-Modal-AI-and-ISO-26262-to-Protect-Vulnerable-Road-Users.git
+cd Leveraging-Multi-Modal-AI-and-ISO-26262-to-Protect-Vulnerable-Road-Users
