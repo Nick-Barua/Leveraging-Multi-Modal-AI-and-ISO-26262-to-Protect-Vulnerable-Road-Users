@@ -124,6 +124,50 @@ https://ssrn.com/abstract=6112086
 | `bib/` | Citation files (optional future addition) |
 
 ---
+---
+
+## 🌍 Research Impact
+
+This research contributes to the advancement of safety-assured AI systems in automotive environments by:
+
+- Supporting regulatory-compliant AI deployment
+- Enhancing vulnerable road user protection
+- Bridging AI perception and functional safety engineering
+- Providing groundwork for ISO 26262-aligned AI safety cases
+
+---
+
+## 🏛 Regulatory Alignment
+
+This framework aligns with:
+
+- ISO 26262 (Functional Safety for Road Vehicles)
+- UNECE WP.29 vehicle safety regulations
+- Emerging AI safety extensions (e.g., ISO/PAS 8800)
+
+The methodology supports structured hazard analysis and ASIL-informed AI integration.
+
+---
+
+## 🧪 Validation Strategy
+
+The proposed framework supports:
+
+- Hazard Analysis and Risk Assessment (HARA)
+- Safety Goal derivation
+- ASIL allocation
+- AI model verification and validation
+- Safety case traceability documentation
+
+---
+
+## ⚠ Limitations
+
+- Conceptual framework requires industrial-scale validation.
+- AI verification within ISO 26262 context remains an evolving domain.
+- Regulatory harmonization for AI-based perception is still developing.
+
+---
 
 ## 👩‍💻 Reproducibility & Extension (If Code Is Added)
 
