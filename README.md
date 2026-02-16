@@ -1,25 +1,29 @@
-# Leveraging-Multi-Modal-AI-and-ISO-26262-to-Protect-Vulnerable-Road-Users
+# Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users
 
 ## 📄 Paper Summary
 
-This repository hosts materials for the SSRN preprint: *Leveraging Multi-Modal AI and ISO 26262 to Protect ...* by Nick Barua (Shiga University).  
-The paper discusses the integration of multi-modal artificial intelligence with ISO 26262 functional safety frameworks to enhance protection in automotive and safety-critical systems. (Download the full PDF in this repo.)
+This repository hosts materials for the SSRN preprint *“Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users”* by Nick Barua (Shiga University).  
+The paper studies the integration of multi-modal artificial intelligence with the **ISO 26262** functional safety standard to enhance protection in safety-critical automotive systems.
 
 ---
 
 ## 📥 Download
 
-The PDF is included as `paper.pdf`. If you’d like the latest version, visit:  
-https://ssrn.com/abstract=6112086
+The full PDF of the preprint is included as:
+- `paper.pdf`
+
+If you want the most current version from SSRN, visit: https://ssrn.com/abstract=6112086
 
 ---
 
-## 🧾 BibTeX Citation
+## 🧾 Citation
 
-````bibtex
+Please use the following **BibTeX** to cite this work in research:
+
+```bibtex
 @misc{barua2026leveraging,
   author = {Barua, Nick},
-  title = {Leveraging Multi-Modal AI and ISO 26262 to Protect ...},
+  title = {Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users},
   year = {2026},
   howpublished = {\url{https://ssrn.com/abstract=6112086}},
 }
