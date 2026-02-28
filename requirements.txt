@@ -1,35 +1,43 @@
-3. Execute scripts or notebooks in `code/`.
-
----
-
 ## 📊 Potential Future Additions
 
 - Safety case documentation templates
-- Example HARA (Hazard Analysis and Risk Assessment)
-- ASIL decomposition examples
-- AI validation metrics aligned with ISO 26262
-- Benchmark datasets for VRU detection
-- Simulation-based verification scenarios
+- Example HARA (Hazard Analysis and Risk Assessment) workflows
+- ASIL decomposition examples with worked scenarios
+- AI validation metrics aligned with ISO 26262 Part 6
+- Benchmark datasets for VRU detection across fall archetypes
+- Simulation-based verification scenarios (e.g., CARLA, SUMO)
 
 ---
 
 ## 🛠 Research Roadmap
 
-- Formalization of AI safety case methodology
-- Integration with ISO/PAS 8800 (AI safety extension)
-- Cross-validation with UNECE automotive regulations
-- Expansion toward Level 3+ automated driving systems
+- [ ] Formalization of AI safety case methodology
+- [ ] Integration with ISO/PAS 8800 (AI safety extension for road vehicles)
+- [ ] Cross-validation with UNECE WP.29 automotive regulations
+- [ ] Expansion toward Level 3+ automated driving systems
+- [ ] Industrial-scale validation with OEM partners
 
 ---
 
-## 🧾 Citation
+## 📝 Citation
 
 If you use this work in academic research, please cite:
-
 ```bibtex
-@misc{barua2026leveraging,
-author = {Barua, Nick},
-title = {Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users},
-year = {2026},
-howpublished = {\url{https://ssrn.com/abstract=6112086}},
+@article{barua2026integrated,
+  title     = {Integrated Safety Architectures: Leveraging Multi-Modal AI 
+               and ISO 26262 to Protect Vulnerable Road Users},
+  author    = {Barua, Nick},
+  journal   = {SSRN Working Paper},
+  year      = {2026},
+  doi       = {10.2139/ssrn.6112086},
+  url       = {https://ssrn.com/abstract=6112086},
+  publisher = {AN Holdings Co.},
+  address   = {Nishinomiya City, Hyogo, Japan}
 }
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **Apache 2.0 License** — see the [LICENSE](LICENSE) file for details.
