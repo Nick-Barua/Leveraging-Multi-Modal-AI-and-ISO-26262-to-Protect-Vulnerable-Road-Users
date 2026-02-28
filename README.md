@@ -1,139 +1,73 @@
-# Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users
+# Integrated Safety Architectures: Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users
 
-![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
-![SSRN Preprint](https://img.shields.io/badge/SSRN-Preprint-blue)
-![MDPI DOI](https://img.shields.io/badge/DOI-10.3390/vehicles7040149-brightgreen)
-![Research Status](https://img.shields.io/badge/status-Academic%20Research-success)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
+[![SSRN](https://img.shields.io/badge/SSRN-6112086-154881?style=flat-square)](https://ssrn.com/abstract=6112086)
+[![DOI SSRN](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6112086-blue?style=flat-square)](https://doi.org/10.2139/ssrn.6112086)
+[![ISO 26262](https://img.shields.io/badge/Standard-ISO_26262-red?style=flat-square)](https://www.iso.org/standard/43464.html)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--4641--0112-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-4641-0112)
 
----
-
-## 📄 Overview
-
-This repository contains materials related to the SSRN preprint:
-
-**Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users**  
-Author: Nick Barua  
-Affiliation: Shiga University
-
-This work investigates how multi-modal artificial intelligence (AI) perception systems can be systematically aligned with ISO 26262 functional safety requirements to improve protection of vulnerable road users (VRUs) in safety-critical automotive systems.
-
-The repository serves as an academic documentation and dissemination platform for safety-oriented AI research in intelligent transportation systems.
+> **Author:** Dr. Nick Barua
+> AN Holdings Co., Nishinomiya City, Hyogo, Japan
+> **Venue:** SSRN Working Paper · **Part 3 of 4** in the [AFODS Research Program](#-related-publications)
+> 📄 Full preprint: [ssrn.com/abstract=6112086](https://ssrn.com/abstract=6112086)
 
 ---
 
-## 📝 Abstract
+## 📌 Abstract
 
-This study proposes a structured integration framework that bridges AI-based perception architectures with the ISO 26262 automotive functional safety lifecycle. By embedding hazard analysis, safety goals, ASIL considerations, validation protocols, and verification traceability into multi-modal AI systems, the framework aims to enhance regulatory compliance, system robustness, and safety assurance for advanced driver assistance systems (ADAS) and automated driving systems (ADS).
+This study proposes a structured integration framework that bridges AI-based perception architectures with the **ISO 26262 automotive functional safety lifecycle**. By embedding hazard analysis, safety goals, ASIL considerations, validation protocols, and verification traceability into multi-modal AI systems, the framework enhances regulatory compliance, system robustness, and safety assurance for Advanced Driver Assistance Systems (ADAS) and Automated Driving Systems (ADS).
 
 ---
 
 ## 🚗 Motivation
 
-Vulnerable road users — including pedestrians and cyclists — account for a significant proportion of global traffic fatalities.
+Vulnerable road users (VRUs) — including pedestrians, cyclists, and fallen persons — account for a significant proportion of global traffic fatalities. Conventional perception systems degrade under:
 
-Conventional perception systems often degrade under:
-- Low-light or night-time conditions
+- Low-light and night-time conditions
 - Occlusion or partial visibility
-- Adverse weather
+- Adverse weather (rain, fog, snow)
 - Complex urban traffic environments
 
-While multi-modal AI (camera + radar + thermal + ultrasonic fusion) improves detection robustness, alignment with structured functional safety processes remains insufficiently addressed.
-
-This research closes the gap between:
-- Advanced AI perception
-- Automotive regulatory compliance
-- Functional safety lifecycle integration
-
----
-
-## 🔬 Research Context & Related Publication
-
-This preprint is conceptually and technically connected to the peer-reviewed implementation study:
-
-**Advanced Multi-Modal Sensor Fusion System for Detecting Falling Humans: Quantitative Evaluation for Enhanced Vehicle Safety**  
-Published in *Vehicles* (MDPI), 2025, 7(4), 149  
-DOI: https://doi.org/10.3390/vehicles7040149
-
-The journal article presents:
-- A validated multi-modal sensor fusion architecture
-- Quantitative performance evaluation
-- Real-world safety-oriented system validation
-
-The present repository focuses on the ISO 26262 alignment and structured safety framework perspective.
+While multi-modal AI improves detection robustness, alignment with structured functional safety processes remains insufficiently addressed. This research closes the gap between **advanced AI perception**, **automotive regulatory compliance**, and **functional safety lifecycle integration**.
 
 ---
 
 ## 🧠 Key Contributions
 
-- Structured framework for integrating multi-modal AI within ISO 26262 lifecycle
-- Hazard analysis alignment for AI perception modules
-- Safety-oriented architectural considerations for sensor fusion
+- Structured framework for integrating multi-modal AI within the ISO 26262 lifecycle
+- Hazard Analysis and Risk Assessment (HARA) alignment for AI perception modules
+- Safety Goal derivation and **ASIL C-D** allocation for VRU detection scenarios
 - Functional safety mapping for vulnerable road user protection
 - Conceptual bridge between AI-driven systems and regulatory compliance
 - Foundation for safety case development in AI-based automotive systems
+- Alignment with **UNECE WP.29** and emerging **ISO/PAS 8800** AI safety extensions
 
 ---
 
-## 📘 Key Terminology
+## 🏗 Integration Architecture
 
-**ISO 26262** – International standard governing functional safety for electrical and electronic systems in road vehicles.
+The proposed framework follows a 7-stage ISO 26262-aligned pipeline:
 
-**Multi-Modal AI** – Artificial intelligence systems combining heterogeneous sensor inputs (e.g., RGB cameras, thermal imaging, radar, ultrasonic).
-
-**Vulnerable Road User (VRU)** – Road users at increased risk of severe injury (e.g., pedestrians, cyclists, fallen persons).
-
-**ASIL (Automotive Safety Integrity Level)** – Risk classification scheme under ISO 26262.
-
----
-
-## 🏗 Conceptual Architecture (Illustrative)
-
-Example integration flow:
-
-1. Multi-modal sensor acquisition  
-2. AI-based perception and fusion  
-3. Hazard identification  
-4. Safety goal derivation  
-5. ASIL allocation  
-6. Verification & validation  
-7. Safety case documentation  
-
-(Architecture diagrams may be added under `figures/`.)
+| Stage | Process |
+| :---: | :--- |
+| 1 | Multi-modal sensor acquisition (LWIR Thermal · NIR Stereo · Ultrasonic) |
+| 2 | AI-based perception and sensor fusion (YOLOv7-Tiny + RNN/Kalman) |
+| 3 | Hazard identification (fallen VRU classification gap) |
+| 4 | Safety goal derivation (TPR ≥ 95% at night) |
+| 5 | ASIL allocation (S3 / E3 / C0 → **ASIL C-D**) |
+| 6 | Verification & validation (ATD testing, pneumatic fall rigs) |
+| 7 | Safety case documentation (SHAP forensic audit trail) |
 
 ---
 
-## 📥 Access
+## ⚖️ Functional Safety (ISO 26262)
 
-The full preprint is included as:
-
-- `paper.pdf`
-
-Latest version available via SSRN:  
-https://ssrn.com/abstract=6112086
-
----
-
-## 📂 Repository Structure
-
-| File / Folder | Description |
-|---------------|-------------|
-| `paper.pdf` | SSRN preprint |
-| `README.md` | Project documentation |
-| `figures/` | Architecture or system diagrams |
-| `code/` | Supplementary scripts or notebooks |
-| `bib/` | Citation files (optional future addition) |
-
----
----
-
-## 🌍 Research Impact
-
-This research contributes to the advancement of safety-assured AI systems in automotive environments by:
-
-- Supporting regulatory-compliant AI deployment
-- Enhancing vulnerable road user protection
-- Bridging AI perception and functional safety engineering
-- Providing groundwork for ISO 26262-aligned AI safety cases
+| Parameter | Classification | Rationale |
+| :--- | :---: | :--- |
+| **Severity** | S3 | Life-threatening or fatal injuries |
+| **Exposure** | E3 | Significant occurrence in urban/night environments |
+| **Controllability** | C0 | Near-zero driver avoidance capability |
+| **ASIL Target** | **C-D** | Highest redundancy requirements |
 
 ---
 
@@ -141,43 +75,81 @@ This research contributes to the advancement of safety-assured AI systems in aut
 
 This framework aligns with:
 
-- ISO 26262 (Functional Safety for Road Vehicles)
-- UNECE WP.29 vehicle safety regulations
-- Emerging AI safety extensions (e.g., ISO/PAS 8800)
-
-The methodology supports structured hazard analysis and ASIL-informed AI integration.
+- **ISO 26262** — Functional Safety for Road Vehicles
+- **UNECE WP.29** — Vehicle safety regulations
+- **ISO/PAS 8800** — AI safety extensions for road vehicles
 
 ---
 
 ## 🧪 Validation Strategy
 
-The proposed framework supports:
-
-- Hazard Analysis and Risk Assessment (HARA)
-- Safety Goal derivation
-- ASIL allocation
-- AI model verification and validation
-- Safety case traceability documentation
-
----
-
-## ⚠ Limitations
-
-- Conceptual framework requires industrial-scale validation.
-- AI verification within ISO 26262 context remains an evolving domain.
-- Regulatory harmonization for AI-based perception is still developing.
+| Method | Purpose |
+| :--- | :--- |
+| Hazard Analysis and Risk Assessment (HARA) | Identify and classify VRU detection hazards |
+| Safety Goal Derivation | Define measurable TPR/FPR targets |
+| ASIL Allocation | Assign safety integrity levels to AI modules |
+| AI Model Verification & Validation | ATD testing across forensic fall archetypes |
+| Safety Case Traceability | SHAP-based forensic audit documentation |
 
 ---
 
-## 👩‍💻 Reproducibility & Extension (If Code Is Added)
+## ⚠️ Limitations
 
-1. Clone repository:
-## 👩‍💻 Reproducibility & Extension (If Code Is Added)
+- Conceptual framework requires industrial-scale validation
+- AI verification within ISO 26262 context remains an evolving domain
+- Regulatory harmonization for AI-based perception is still developing
 
-If supplementary code or notebooks are included:
+---
 
-1. Clone the repository:
+## 🔗 Related Publications
 
-```bash
-git clone https://github.com/Nick-Barua/Leveraging-Multi-Modal-AI-and-ISO-26262-to-Protect-Vulnerable-Road-Users.git
-cd Leveraging-Multi-Modal-AI-and-ISO-26262-to-Protect-Vulnerable-Road-Users
+This repository is **Part 3** of a unified 4-paper road safety research program:
+
+| # | Title | Venue | Role |
+| :---: | :--- | :---: | :--- |
+| 1 | [Advanced Multi-Modal Sensor Fusion System for Detecting Falling Humans](https://doi.org/10.3390/vehicles7040149) | MDPI Vehicles | Technical foundation & benchmarks |
+| 2 | [From Post-Mortem to Prevention: Redefining "Invisible" Pedestrians through ISO 26262 and Multi-Modal AI](https://doi.org/10.2139/ssrn.6305618) | SSRN | Problem framing & ISO 26262 compliance |
+| **3** | **Integrated Safety Architectures** *(this repo)* | SSRN | System-level VRU architecture |
+| 4 | Sudden Incapacitation or Death at the Wheel: Unravelling the Predictors of Catastrophic Multi-Vehicle Collisions | SSRN *(pending)* | Epidemiological evidence for ADAS mandate |
+
+---
+
+## 📂 Related Repositories
+
+- **[From-Post-Mortem-to-Prevention-AFODS](https://github.com/Nick-Barua/From-Post-Mortem-to-Prevention-AFODS)** — ISO 26262-aligned AFODS conceptual framework *(Part 2)*
+- **[sensor-fusion-fall-detection](https://github.com/Nick-Barua/sensor-fusion-fall-detection)** — Multi-modal sensor fusion implementation *(Part 1)*
+- **[AFODS-Operational-Sequence](https://github.com/Nick-Barua/AFODS-Operational-Sequence)** — Five-stage data processing pipeline
+
+---
+
+## 📂 Repository Structure
+
+| File / Folder | Description |
+| :--- | :--- |
+| `paper.pdf` | SSRN preprint (full paper) |
+| `README.md` | Project documentation |
+| `figures/` | Architecture and system diagrams |
+| `code/` | Supplementary scripts or notebooks |
+| `bib/` | Citation files |
+
+---
+
+## 📝 Citation
+```bibtex
+@article{barua2026integrated,
+  title     = {Integrated Safety Architectures: Leveraging Multi-Modal AI 
+               and ISO 26262 to Protect Vulnerable Road Users},
+  author    = {Barua, Nick},
+  journal   = {SSRN Working Paper},
+  year      = {2026},
+  doi       = {10.2139/ssrn.6112086},
+  url       = {https://ssrn.com/abstract=6112086},
+  publisher = {AN Holdings Co.}
+}
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **Apache 2.0 License** — see the [LICENSE](LICENSE) file for details.
