@@ -80,7 +80,10 @@ This repository is **Part 3** of a unified 4-paper research program. All support
 
 ---
 
+
 ## 📝 Citation
+
+If you use this work in academic research, please cite:
 ```bibtex
 @article{barua2026integrated,
   title     = {Integrated Safety Architectures: Leveraging Multi-Modal AI and ISO 26262 to Protect Vulnerable Road Users},
@@ -89,5 +92,6 @@ This repository is **Part 3** of a unified 4-paper research program. All support
   year      = {2026},
   doi       = {10.2139/ssrn.6112086},
   url       = {[https://ssrn.com/abstract=6112086](https://ssrn.com/abstract=6112086)},
-  publisher = {AN Holdings Co.}
+  publisher = {AN Holdings Co.},
+  address   = {Nishinomiya City, Hyogo, Japan}
 }
