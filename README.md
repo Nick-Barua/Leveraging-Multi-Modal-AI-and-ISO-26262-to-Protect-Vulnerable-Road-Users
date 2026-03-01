@@ -9,26 +9,13 @@
 
 > **Author:** Dr. Nick Barua
 > AN Holdings Co., Nishinomiya City, Hyogo, Japan
-> **Venue:** SSRN Working Paper · **Part 3 of 4** in the [AFODS Research Program](#-related-publications)
+> **Venue:** SSRN Working Paper · **Part 3 of 4** in the [AFODS Research Program](#-the-afods-research-ecosystem-2025-2026)
 > 📄 Full preprint: [ssrn.com/abstract=6112086](https://ssrn.com/abstract=6112086)
 
 ---
 
 ## 📌 Abstract
 This study proposes a structured integration framework that bridges AI-based perception architectures with the **ISO 26262 automotive functional safety lifecycle**. By embedding hazard analysis, safety goals, ASIL considerations, validation protocols, and verification traceability into multi-modal AI systems, the framework enhances regulatory compliance, system robustness, and safety assurance for Advanced Driver Assistance Systems (ADAS) and Automated Driving Systems (ADS).
-
----
-
-## 🚗 Motivation
-Vulnerable road users (VRUs) — including pedestrians, cyclists, and fallen persons — account for a significant proportion of global traffic fatalities. Conventional perception systems degrade under low-light, occlusion, or adverse weather. This research closes the gap between **advanced AI perception** and **automotive regulatory compliance**.
-
----
-
-## 🧠 Key Contributions
-- Structured framework for integrating multi-modal AI within the ISO 26262 lifecycle.
-- Hazard Analysis and Risk Assessment (HARA) alignment for AI perception modules.
-- Safety Goal derivation and **ASIL D** allocation for VRU detection scenarios.
-- Alignment with **UNECE WP.29** and emerging **ISO/PAS 8800** AI safety extensions.
 
 ---
 
@@ -58,12 +45,10 @@ The proposed framework follows a 7-stage ISO 26262-aligned pipeline:
 | **Controllability** | **C3** | Difficult or impossible for a human driver to avoid without intervention |
 | **ASIL Target** | **ASIL D** | Highest safety integrity requirements for safety-critical detection |
 
-
-
 ---
 
-## 🔗 Related Publications
-This repository is **Part 3** of a unified 4-paper research program. All supporting data and frameworks are archived on Zenodo to ensure academic transparency and reproducibility:
+## 🔗 The AFODS Research Ecosystem (2025-2026)
+This project is **Part 3** of a unified 4-paper research program. All supporting data and frameworks are archived on Zenodo to ensure academic transparency and reproducibility:
 
 | # | Title | Venue | Permanent Archive (Zenodo DOI) |
 | :---: | :--- | :---: | :--- |
@@ -80,9 +65,7 @@ This repository is **Part 3** of a unified 4-paper research program. All support
 
 ---
 
-
 ## 📝 Citation
-
 If you use this work in academic research, please cite:
 ```bibtex
 @article{barua2026integrated,
