@@ -63,14 +63,14 @@ The proposed framework follows a 7-stage ISO 26262-aligned pipeline:
 ---
 
 ## 🔗 Related Publications
-This repository is part of a unified 4-paper research program. All supporting data is archived on Zenodo for transparency:
+This repository is **Part 3** of a unified 4-paper research program. All supporting data and frameworks are archived on Zenodo to ensure academic transparency and reproducibility:
 
-| # | Title | Venue | Archive (Zenodo DOI) |
+| # | Title | Venue | Permanent Archive (Zenodo DOI) |
 | :---: | :--- | :---: | :--- |
 | 1 | [Advanced Multi-Modal Sensor Fusion](https://doi.org/10.3390/vehicles7040149) | MDPI Vehicles | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824034-blue)](https://doi.org/10.5281/zenodo.18824034) |
 | 2 | [From Post-Mortem to Prevention](https://doi.org/10.2139/ssrn.6305618) | SSRN | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824297-blue)](https://doi.org/10.5281/zenodo.18824297) |
 | **3** | **Integrated Safety Architectures** | SSRN | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824368-blue)](https://doi.org/10.5281/zenodo.18824368) |
-| 4 | Sudden Incapacitation at the Wheel | SSRN | *In Review (Pending)* |
+| 4 | Sudden Incapacitation at the Wheel | SSRN | *In Review (Data Pending)* |
 
 ---
 
