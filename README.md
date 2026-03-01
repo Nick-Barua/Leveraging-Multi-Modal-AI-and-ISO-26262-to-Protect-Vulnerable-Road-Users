@@ -15,7 +15,7 @@
 ---
 
 ## 📌 Abstract
-This study proposes a structured integration framework that bridges AI-based perception architectures with the **ISO 26262 automotive functional safety lifecycle**. By embedding hazard analysis, safety goals, ASIL considerations, validation protocols, and verification traceability into multi-modal AI systems, the framework enhances regulatory compliance, system robustness, and safety assurance for Advanced Driver Assistance Systems (ADAS) and Automated Driving Systems (ADS).
+This study proposes a structured integration framework that bridges AI-based perception architectures with the **ISO 26262 automotive functional safety lifecycle**. By embedding hazard analysis, safety goals, ASIL considerations, and verification traceability into multi-modal AI systems, the framework enhances regulatory compliance and safety assurance for ADAS and Automated Driving Systems (ADS).
 
 ---
 
@@ -45,17 +45,19 @@ The proposed framework follows a 7-stage ISO 26262-aligned pipeline:
 | **Controllability** | **C3** | Difficult or impossible for a human driver to avoid without intervention |
 | **ASIL Target** | **ASIL D** | Highest safety integrity requirements for safety-critical detection |
 
+
+
 ---
 
 ## 🔗 The AFODS Research Ecosystem (2025-2026)
-This project is **Part 3** of a unified 4-paper research program. All supporting data and frameworks are archived on Zenodo to ensure academic transparency and reproducibility:
+This project is **Part 3** of a unified 4-paper research program. Each component is archived on Zenodo to provide full traceability from raw sensor fusion to ASIL-D safety compliance.
 
-| # | Title | Venue | Permanent Archive (Zenodo DOI) |
-| :---: | :--- | :---: | :--- |
-| 1 | [Advanced Multi-Modal Sensor Fusion](https://doi.org/10.3390/vehicles7040149) | MDPI Vehicles | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824034-blue)](https://doi.org/10.5281/zenodo.18824034) |
-| 2 | [From Post-Mortem to Prevention](https://doi.org/10.2139/ssrn.6305618) | SSRN | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824297-blue)](https://doi.org/10.5281/zenodo.18824297) |
-| **3** | **Integrated Safety Architectures** | SSRN | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824368-blue)](https://doi.org/10.5281/zenodo.18824368) |
-| 4 | Sudden Incapacitation at the Wheel | SSRN | *In Review (Data Pending)* |
+| Part | Research Focus | Primary Repository | Permanent Archive (DOI) |
+| :---: | :--- | :--- | :--- |
+| **1** | **Technical Foundation** | [AFODS-Source-Code](https://github.com/Nick-Barua/Advanced-Multi-Modal-Sensor-Fusion-System-for-Detecting-Falling-Humans) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824034-blue)](https://doi.org/10.5281/zenodo.18824034) |
+| **2** | **Safety Framework** | [From-Post-Mortem-to-Prevention](https://github.com/Nick-Barua/From-Post-Mortem-to-Prevention-AFODS) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824297-blue)](https://doi.org/10.5281/zenodo.18824297) |
+| **3** | **Integrated Architecture** | *This Repository* | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824368-blue)](https://doi.org/10.5281/zenodo.18824368) |
+| **4** | **Epidemiological Evidence** | [Sudden-Incapacitation-Study](https://github.com/Nick-Barua/Sudden-Incapacitation-or-Death-at-the-Wheel) | *In Review (Data Pending)* |
 
 ---
 
