@@ -3,7 +3,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 [![SSRN](https://img.shields.io/badge/SSRN-6112086-154881?style=flat-square)](https://ssrn.com/abstract=6112086)
 [![DOI SSRN](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6112086-blue?style=flat-square)](https://doi.org/10.2139/ssrn.6112086)
-[![Zenodo](https://img.shields.io/badge/Zenodo-Latest_Archive-blue.svg)](https://zenodo.org/search?page=1&size=20&q=Nick%20Barua)
+[![DOI Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824694-blue.svg)](https://doi.org/10.5281/zenodo.18824694)
 [![ISO 26262](https://img.shields.io/badge/Standard-ISO_26262-red?style=flat-square)](https://www.iso.org/standard/43464.html)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--4641--0112-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-4641-0112)
 
@@ -56,7 +56,7 @@ This project is **Part 3** of a unified 4-paper research program. Each component
 | :---: | :--- | :--- | :--- |
 | **1** | **Technical Foundation** | [AFODS-Source-Code](https://github.com/Nick-Barua/Advanced-Multi-Modal-Sensor-Fusion-System-for-Detecting-Falling-Humans) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824034-blue)](https://doi.org/10.5281/zenodo.18824034) |
 | **2** | **Safety Framework** | [From-Post-Mortem-to-Prevention](https://github.com/Nick-Barua/From-Post-Mortem-to-Prevention-AFODS) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824297-blue)](https://doi.org/10.5281/zenodo.18824297) |
-| **3** | **Integrated Architecture** | *This Repository* | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824368-blue)](https://doi.org/10.5281/zenodo.18824368) |
+| **3** | **Integrated Architecture** | *This Repository* | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18824694-blue)](https://doi.org/10.5281/zenodo.18824694) |
 | **4** | **Epidemiological Evidence** | [Sudden-Incapacitation-Study](https://github.com/Nick-Barua/Sudden-Incapacitation-or-Death-at-the-Wheel) | *In Review (Data Pending)* |
 
 ---
